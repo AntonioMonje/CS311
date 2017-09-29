@@ -1,0 +1,39 @@
+Script started on Fri 16 Sep 2016 12:55:25 PM PDT
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ g++ stack.h
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ g++ stack.h[Kcpp client1.cpp
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ ./a.out
+type a postfix expression: 34+
+The answer is: 7
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ ./a.out
+type a postfix expression: 345+*
+The answer is: 27
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ ./a.out
+type a postfix expression: 722+-
+The answer is: 3
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ ./a.out
+type a postfix expression: 34+56++
+The answer is: 18
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ ./a.out
+type a postfix expression: 12+34*45+-+
+The answer is: 6
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ ./a.out
+type a postfix expression: 1234567891234
+Error: Expression is to long!
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ ./a.out
+type a postfix expression: +
+Error: To few operands!
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ ./a.out
+type a postfix expression: 3+
+Error: To few operands!
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ 3#
+bash: 3#: command not found
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ 3#./a.out
+type a postfix expression: 3#
+Error: invalid item
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ ./a.out
+type a postfix expression: 2345+
+Error: A incomplete expression was found left in the stack!
+]0;monje001@empress:~/cs311/HWPrograms/forHW1[monje001@empress forHW1]$ exit
+exit
+
+Script done on Fri 16 Sep 2016 12:57:51 PM PDT
